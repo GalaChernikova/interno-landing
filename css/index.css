@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Serif+Display:regular,italic);
+@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/* 
+titles
+font-family: 'DM Serif Display', serif;   
+
+text
+font-family: 'Jost', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+  
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Serif Display', serif;   
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+
+
+.header-container,
+.main-container,
+.footer-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 200px;
+}
