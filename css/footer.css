@@ -65,3 +65,12 @@
     max-width: 258px;
     width: 100%;
 }
+
+.footer-links__contact ul {
+margin-top: 26px;
+}
+
+.address-link {
+    line-height: 150% !important;
+    
+}

@@ -9,41 +9,44 @@
 
 /* main */
 .main-screen__button a:hover{
-    padding: 23px 5px;
-    transition: padding 0.3s ease;
+    padding: 21px 5px;
+    transition: padding 0.5s ease;
 }
 
 .features-blocks__block a:hover{
     background: #F4F0EC;
-    padding: 5px 10px;
-    border-radius: 10px;
-    transition: all 0.3s ease;
+    padding: 5px 15px;
+    border-radius: 12px;
+    transition: all 0.5s ease;
 }
 
 
 .create-text__button a:hover{
-    padding: 23px 12px;
-    transition: padding 0.3s ease;
+    padding: 21px 15px;
+    transition: padding 0.5s ease;
 }
 
 
 
-.main-container,
+.main-screen,
 .create-img,
-.proj-boxes__box,
+.proj-boxes__box--img--01,
+.proj-boxes__box--img--02,
+.proj-boxes__box--img--03,
+.proj-boxes__box--img--04,
 .news-blocks__block--img
 {
     overflow: hidden;
 }
 
-.main-screen,
+.main-screen__container,
 .create-img img,
 .proj-boxes__box img,
 .news-img{
     transition: all .7s;
 }
 
-.main-screen:hover,
+.main-screen__container:hover,
 .create-img img:hover,
 .proj-boxes__box img:hover,
 .news-img:hover{
@@ -51,8 +54,8 @@
 }
 
 .join-button a:hover{
-    padding: 28px 10px;
-    transition: padding 0.3s ease;
+    padding: 26px 20px;
+    transition: padding 0.5s ease;
 }
 
 

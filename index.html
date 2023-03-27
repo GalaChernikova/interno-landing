@@ -48,17 +48,20 @@
         <div class="main-container">
 
             <section class="main-screen">
-                <div class="main-screen__text">
-                    <h1>Let Your Home Be Unique</h1>
+                <div class="main-screen__container">
+                    <div class="main-screen__text">
+                        <h1>Let Your Home Be Unique</h1>
 
-                    <p>There are many variations of the passages of
-                        lorem Ipsum fromavailable, majority.</p>
+                        <p>There are many variations of the passages of
+                            lorem Ipsum fromavailable, majority.</p>
 
-                    <div class="main-screen__button">
-                        <a href="#">Get Started <p id="arrow-right">&rarr;</p></a>
-                    </div>
+                        <div class="main-screen__button">
+                            <a href="#">Get Started <p id="arrow-right">&rarr;</p></a>
+                        </div>
 
+                    </div>                    
                 </div>
+
             </section>
 
             <section class="features">
@@ -175,7 +178,10 @@
 
                 <div class="proj-boxes">
                     <div class="proj-boxes__box">
-                        <img src="./img/proj_01/Image.png" alt="proj_01" srcset="./img/proj_01/Image.png 1x, ./img/proj_01/Image@2x.png 2x, ./img/proj_01/Image@3x.png 3x">
+                        <div class="proj-boxes__box--img--01">
+                          <img src="./img/proj_01/Image.png" alt="proj_01" srcset="./img/proj_01/Image.png 1x, ./img/proj_01/Image@2x.png 2x, ./img/proj_01/Image@3x.png 3x">  
+                        </div>
+                        
 
                         <div class="proj-boxes__proj-name">
                             <div class="proj-name__text">
@@ -190,7 +196,10 @@
                     </div>
 
                     <div class="proj-boxes__box">
-                        <img src="./img/proj_02/Image.png" alt="proj_02" srcset="./img/proj_02/Image.png 1x, ./img/proj_02/Image@2x.png 2x, ./img/proj_02/Image@3x.png 3x">
+                        <div class="proj-boxes__box--img--02">
+                            <img src="./img/proj_02/Image.png" alt="proj_02" srcset="./img/proj_02/Image.png 1x, ./img/proj_02/Image@2x.png 2x, ./img/proj_02/Image@3x.png 3x">
+                        </div>
+                        
 
                         <div class="proj-boxes__proj-name">
                             <div class="proj-name__text">
@@ -205,7 +214,10 @@
                     </div>
 
                     <div class="proj-boxes__box">
-                        <img src="./img/proj_03/Image.png" alt="proj_03" srcset="./img/proj_03/Image.png 1x, ./img/proj_03/Image@2x.png 2x, ./img/proj_03/Image@3x.png 3x">
+                        <div class="proj-boxes__box--img--03">
+                            <img src="./img/proj_03/Image.png" alt="proj_03" srcset="./img/proj_03/Image.png 1x, ./img/proj_03/Image@2x.png 2x, ./img/proj_03/Image@3x.png 3x">
+                        </div>
+                        
 
                         <div class="proj-boxes__proj-name">
                             <div class="proj-name__text">
@@ -220,7 +232,10 @@
                     </div>
 
                     <div class="proj-boxes__box">
-                        <img src="./img/proj_04/Image.png" alt="proj_04" srcset="./img/proj_04/Image.png 1x, ./img/proj_04/Image@2x.png 2x, ./img/proj_04/Image@3x.png 3x">
+                        <div class="proj-boxes__box--img--04">
+                            <img src="./img/proj_04/Image.png" alt="proj_04" srcset="./img/proj_04/Image.png 1x, ./img/proj_04/Image@2x.png 2x, ./img/proj_04/Image@3x.png 3x">
+                        </div>
+                        
 
                         <div class="proj-boxes__proj-name">
                             <div class="proj-name__text">
@@ -336,7 +351,13 @@
         <div class="footer-container">
             <div class="footer-links">
                 <div class="footer-links__logo">
-                    <img src="./img/logo.svg" alt="logo" class="footer-logo">
+
+                    <div class="footer-logo">
+                        <a href="./index.html">
+                           <img src="./img/logo.svg" alt="logo"> 
+                        </a>
+                    </div>
+                 
 
                     <p>It is a long established fact that a reader will be distracted lookings.</p>
 
@@ -384,7 +405,7 @@
                 <div class="footer-links__contact">
                     <h3>Contact</h3>
                     <ul>
-                        <li><a href="#">55 East Birchwood Ave. Brooklyn, New York 11201</a></li>
+                        <li><a href="#" class="address-link">55 East Birchwood Ave. Brooklyn, New York 11201</a></li>
                         <li><a href="mailto:contact@interno.com
                             ">contact@interno.com
                         </a></li>
