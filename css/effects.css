@@ -1,0 +1,78 @@
+/* header & footer */
+.nav-links li a:hover,
+.footer-links__pages ul li a:hover, 
+.footer-links__services ul li a:hover, 
+.footer-links__contact ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* main */
+.main-screen__button a:hover{
+    padding: 23px 5px;
+    transition: padding 0.3s ease;
+}
+
+.features-blocks__block a:hover{
+    background: #F4F0EC;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+
+.create-text__button a:hover{
+    padding: 23px 12px;
+    transition: padding 0.3s ease;
+}
+
+
+
+.main-container,
+.create-img,
+.proj-boxes__box,
+.news-blocks__block--img
+{
+    overflow: hidden;
+}
+
+.main-screen,
+.create-img img,
+.proj-boxes__box img,
+.news-img{
+    transition: all .7s;
+}
+
+.main-screen:hover,
+.create-img img:hover,
+.proj-boxes__box img:hover,
+.news-img:hover{
+    transform: scale(1.1);
+}
+
+.join-button a:hover{
+    padding: 28px 10px;
+    transition: padding 0.3s ease;
+}
+
+
+
+
+/* ======= */
+/* 
+background animation 
+
+
+parent: 
+.main-container{
+    overflow: hidden;
+}
+
+
+child:
+.main-screen{
+    transition: all .5s;
+}
+.main-screen:hover{
+    transform: scale(1.2)
+} */

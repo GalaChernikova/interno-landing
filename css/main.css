@@ -4,6 +4,7 @@
     background-size: contain;
 
     min-height: 758px;
+    padding-left: 30px;
 }
 
 .main-screen__text {
@@ -115,6 +116,7 @@ h3 {
     line-height: 125%;
 
     letter-spacing: 0.02em;
+    padding: 5px 10px;
 
     color: #4D5053;
 }
