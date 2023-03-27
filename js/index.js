@@ -4,9 +4,9 @@ const openBtn = document.getElementById('openBtn')
 const mobMenu = document.querySelector('.mobile-nav');
 
 openBtn.addEventListener('click', function(){
-  mobMenu.style.display = 'flex';
+  mobMenu.classList.add('active');
 })
 
 closeBtn.addEventListener('click', function(){
-  mobMenu.style.display = 'none';
+  mobMenu.classList.remove('active');
 })

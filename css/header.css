@@ -53,13 +53,27 @@ nav,
   position: absolute;
 
   padding-bottom: 200px;
-  display: none;
   background: #F4F0EC;
   flex-direction: column;
   top: -45px;
   right: 0;
   width: 100%;
 
+  
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+.active {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s ease;
+ 
+}
+.mobile-nav__button{
+  cursor: pointer;
 }
 
 .mobile-nav__button--close {
@@ -68,6 +82,10 @@ nav,
   max-width: 27px;
   padding: 20px 40px;
   margin: 30px 50px 30px auto;
+  cursor: pointer;
+}
+.mobile-nav__button--close img {
+  width: unset;
 }
 
 .nav-links__mob {
