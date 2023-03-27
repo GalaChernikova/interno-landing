@@ -1,0 +1,33 @@
+header,
+footer,
+.main-screen,
+.features,
+.create,
+.feedback,
+.brands,
+.projects,
+.numbers,
+.news,
+.join {
+    /* display: none; */
+}
+
+/* 1300px */
+@media (max-width: 1300px) {
+    .header-container {
+        justify-content: space-around;
+    }
+}
+
+
+/* 900px */
+@media (max-width: 900px) {
+    .header-nav {
+        display: none;
+    }
+
+    .mobile-nav__button{
+        display: block;
+    }
+
+}

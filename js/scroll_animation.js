@@ -8,6 +8,9 @@ ScrollReveal().reveal('.header-container',{
 
 
 
+
+
+
 // main
 ScrollReveal().reveal('.main-container',{ 
    
@@ -96,6 +99,9 @@ ScrollReveal().reveal('.join',{
     origin: 'bottom',
     opacity: 0.2,
 });
+
+
+
 
 
 // footer
